@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Appointments</title>
+<link rel="stylesheet" href="style.css">
+<script src="appointment.js"></script>
+</head>
+<body>
+
+<h2>Book Appointment</h2>
+
+<table border="1" cellpadding="10">
+<tr>
+<td>Patient ID:</td>
+<td><input type="number" id="patientId"></td>
+</tr>
+
+<tr>
+<td>Doctor ID:</td>
+<td><input type="number" id="doctorId"></td>
+</tr>
+
+<tr>
+<td>Date:</td>
+<td><input type="date" id="appointmentDate"></td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+<button onclick="bookAppointment()">Book</button>
+</td>
+</tr>
+</table>
+
+<hr>
+
+<h2>All Appointments</h2>
+<div id="appointmentList"></div>
+
+<button onclick="loadAppointments()">Load Appointments</button>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Doctors Panel</title>
+<link rel="stylesheet" href="style.css">
+<script src="doctor.js"></script>
+</head>
+<body>
+
+<h2>Doctors Panel</h2>
+
+<h3>Register Doctor</h3>
+
+<table border="1" cellpadding="10">
+<tr>
+<td>Name:</td>
+<td><input type="text" id="dname"></td>
+</tr>
+
+<tr>
+<td>Specialization:</td>
+<td><input type="text" id="dspecialization"></td>
+</tr>
+
+<tr>
+<td>Availability:</td>
+<td><input type="text" id="davailability"></td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+<button onclick="registerDoctor()">Add Doctor</button>
+</td>
+</tr>
+</table>
+
+<hr>
+
+<h3>Doctor List</h3>
+<div id="doctorList"></div>
+
+<button onclick="loadDoctors()">Load Doctors</button>
+
+</body>
+</html>

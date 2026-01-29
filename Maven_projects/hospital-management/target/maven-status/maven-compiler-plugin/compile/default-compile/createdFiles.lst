@@ -1,0 +1,16 @@
+com\skillnext2\HospitalManagementApplication.class
+com\skillnext2\App.class
+com\skillnext2\entity\Appointment.class
+com\skillnext2\dao\DoctorDAO.class
+com\skillnext2\dao\AppointmentDAO.class
+com\skillnext2\controller\DoctorController.class
+com\skillnext2\entity\Admin.class
+com\skillnext2\controller\PatientController.class
+com\skillnext2\dao\PatientDAO.class
+com\skillnext2\entity\Patient.class
+com\skillnext2\repository\DoctorRepository.class
+com\skillnext2\controller\AppointmentController.class
+com\skillnext2\util\HibernateUtil.class
+com\skillnext2\repository\AppointmentRepository.class
+com\skillnext2\entity\Doctor.class
+com\skillnext2\repository\PatientRepository.class
